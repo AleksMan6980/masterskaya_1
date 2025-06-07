@@ -11,3 +11,5 @@
     -H "accept: application/json" \
     -H "Content-Type: multipart/form-data" \
     -F "file=@heart_test.csv"`
+
+  Тестовые данные можно скачать по адресу: https://drive.google.com/file/d/1qJduj_-_nWCNhfTdICReepAbUs8OHC_Y/view
