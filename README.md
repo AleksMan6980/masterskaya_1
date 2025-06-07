@@ -1,6 +1,8 @@
-Скачать архив с кодом, распаковать, в папке с кодом запустить powershell (на пустом месте правой кновкой мыши + Shift).
+Скачать архив с кодом, распаковать, в папке с кодом запустить powershell (на пустом месте правой кнопкой мыши + Shift).
+Тестовые данные можно скачать по адресу: https://drive.google.com/file/d/1qJduj_-_nWCNhfTdICReepAbUs8OHC_Y/view
+
 Выполнить команды:
-1. `python -m venv ./venv`
+1. `python -m venv ./venv` (в PowerShell в папке с проектом)
 2. `.\venv\Scripts\Activate.ps1` (если скрипт не сработает "выполнение сценариев отключено в этой системе",
 открыть PowerSell от администратора и выполнить команду `Set-ExecutionPolicy RemoteSigned` и подтвердить `A`)
 Должны появиться в начале строки круглые скобки и `venv` - можно продолжать.
@@ -12,5 +14,3 @@
     -H "accept: application/json" \
     -H "Content-Type: multipart/form-data" \
     -F "file=@heart_test.csv"`
-
-  Тестовые данные можно скачать по адресу: https://drive.google.com/file/d/1qJduj_-_nWCNhfTdICReepAbUs8OHC_Y/view
